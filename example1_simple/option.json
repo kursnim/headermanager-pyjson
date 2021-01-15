@@ -1,0 +1,7 @@
+{
+    "OPT_DEFINE":"DEFINED_SOMETHING",
+    "OPT_INT_TEST":"(1)",
+    "OPT_FLOAT_TEST":"(1.5F)",
+    "OPT_STRING_TEST":"\"Something\"",
+    "OPT_HEX_TEST":"(0x001Fu)"
+}
