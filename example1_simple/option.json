@@ -1,7 +1,8 @@
 {
-    "OPT_DEFINE":"DEFINED_SOMETHING",
-    "OPT_INT_TEST":"(1)",
-    "OPT_FLOAT_TEST":"(1.5F)",
-    "OPT_STRING_TEST":"\"Something\"",
-    "OPT_HEX_TEST":"(0x001Fu)"
+    "OPT_DEFINE": "DEFINED_NOTHING",
+    "OPT_INT_TEST1": "456U",
+    "OPT_INT_TEST2": "456",
+    "OPT_FLOAT_TEST": "456.789F",
+    "OPT_STRING_TEST": "Bye, world!",
+    "OPT_HEX_TEST": "0xABCDu"
 }
