@@ -22,7 +22,7 @@ def define_replacer(text):
             return match.group(1) + match.group(2) + match.group(3) + def_val
         else:
             return match.group(0)
-    return re.sub(r'(#define\s+)(\w+)(\s+)([-+]?\d*\.\d+F?|\w+|\".+\")', replacer, text)
+    return re.sub(r'(#\s*define\s+)(\w+)(\s+)([-+]?\d*\.\d+F?|\w+|\".+\")', replacer, text)
 
 def parentheses_remover(text):
     def replacer(match):
